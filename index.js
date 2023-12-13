@@ -38,9 +38,9 @@ function mdLinks(filePath, validate = false) {
   });
 }
 
-mdLinks('./test/test.md',  true ).then(result => {
-  console.log(result);
-});
+// mdLinks('./test/test.md',  true ).then(result => {
+//   console.log(result);
+// });
 
 // const pathsCommand = process.argv;
 // const addressPath = process.argv[2];

@@ -5,6 +5,7 @@
     "node": ">=16.x"
   },
   "scripts": {
+    "test": "jest --coverage --verbose",
     "start:dev": "nodemon index.js"
   },
   "bootcamp": {
@@ -15,5 +16,8 @@
   "dependencies": {
     "babel": "^6.23.0",
     "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
